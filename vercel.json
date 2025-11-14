@@ -1,5 +1,3 @@
 {
-  "build": {
-    "command": "npm i next@latest && npm run build"
-  }
+  "buildCommand": "npm i next@latest && npm run build"
 }

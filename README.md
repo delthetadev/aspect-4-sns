@@ -1,5 +1,5 @@
 # aspect-4-sns
-https://aspect-4-sns.vercel.app/
+https://aspect-4-sns.vercel.app/  
 上記URLより使用可能です。
 
 各SNS毎に推奨されている画像や動画の比率が存在します。

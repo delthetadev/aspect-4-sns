@@ -1,3 +1,29 @@
+# aspect-4-sns
+https://aspect-4-sns.vercel.app/
+上記URLより使用可能です。
+
+各SNS毎に推奨されている画像や動画の比率が存在します。
+
+| SNS       | 正方形 | 縦長   | 横長     | 複数枚時or備考      |
+| --------- | --- | ---- | ------ | ------------- |
+| Instagram | 1:1 | 4:5  | 1.91:1 | 複数枚も可         |
+| X         | 1:1 | 4:5  | 16:9   | 2:1, 1:1, 4:5 |
+| Facebook  | 1:1 | 4:5  | 1.91:1 | 3:1～4:5       |
+| LINE      | -   | 16:9 | 16:9   | -             |
+| TikTok    | -   | 9:16 | -      | 縦動画中心         |
+| Threads   | -   | -    | -      | 複数8:9         |
+| YouTube   | -   | -    | 16:9   | サムネイル・動画      |
+
+なんで？？？
+めんどくさい！
+でも推奨サイズで作りたい！作らなきゃ！
+
+ということで、サクッと横か縦どちらか一辺を数値で入力すると、各SNS推奨のアスペクト比に基づいたサイズでもう一辺を計算して表示するアプリを作成しました。自分用ですね。
+ですが、公開いたしましたので、よろしければご利用ください。
+
+
+# 使用技術↓↓
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -34,4 +60,3 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# aspect-4-sns

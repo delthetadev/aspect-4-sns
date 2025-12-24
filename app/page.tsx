@@ -38,7 +38,8 @@ export default function Home() {
 
   return (
     <main className="flex flex-col items-center p-6">
-      <h1 className="text-lg font-bold mb-3">SNS画像・動画アスペクト比計算フォーム (2025/11/15 時点 )</h1>
+      <h1 className="text-lg font-bold mb-3">SNS画像・動画アスペクト比計算フォーム (2025/12/25 時点 )</h1>
+      <p>各種SNSが推奨するアスペクト比に基づいて計算します。切り抜き時などにご活用ください。</p>
       <div className="flex flex-col gap-4 max-w-xl w-full">
         <div className="flex gap-4">
           <label>

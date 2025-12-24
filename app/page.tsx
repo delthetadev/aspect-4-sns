@@ -7,11 +7,21 @@ export default function Home() {
   const [focus, setFocus] = useState("x"); // 入力基準
 
   const ratios = [
-    { name: "Instagram (4:5)", ratio: 4 / 5 },
-    { name: "Instagram (1:1)", ratio: 1 },
-    { name: "YouTube (16:9)", ratio: 16 / 9 },
-    { name: "Twitter (16:9)", ratio: 16 / 9 },
-    { name: "Story (9:16)", ratio: 9 / 16 },
+    { name: "Instagram[縦] (4:5)", ratio: 4 / 5 },
+    { name: "X[縦] (4:5)", ratio: 4 / 5 },
+    { name: "Facebook[縦] (4:5)", ratio: 4 / 5 },
+    { name: "LINE[縦・横] (16:9)", ratio: 16 / 9 },
+    { name: "TikTok[縦] (9:16)", ratio: 9 / 16 },
+    { name: "Threads[縦] (4:5前後)", ratio: 4 / 5 },
+    { name: "Youtube[縦] (9:16)", ratio: 9 / 16 },
+    { name: "Pinterest[縦] (2:3)", ratio: 2 / 3 },
+    { name: "Instagram[横] (1.91:1)", ratio: 1.91 / 1 },
+    { name: "X[横] (16:9)", ratio: 16 / 9 },
+    { name: "Facebook[横] (1.91:1)", ratio: 1.91 / 1 },
+    { name: "TikTok[横] (1:1)", ratio: 1 / 1 },
+    { name: "Threads[横] (1.91:1前後)", ratio: 1.91 / 1 },
+    { name: "Youtube[横] (16:9)", ratio: 16 / 9 },
+    { name: "Pinterest[横] (4:5)", ratio: 4 / 5 },
   ];
 
   const getResults = () => {
